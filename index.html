@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        header, footer {
+            background: lightblue;
+            padding: 20px;
+            border: 1px solid black;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        header {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        form {
+            font-size: 1rem;
+        }
+        .personalGreeting {
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .p1 {
+            color: darkblue;
+        }
+        .p2 {
+            color: blue;
+        }
+        .p3 {
+            color: rgb(71, 136, 158);
+        }
+        .p1,.p2,.p3 {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        h1 {
+           text-decoration: underline;
+    
+           font-style: italic;
+        }
+    </style>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>
+            Vores hjemmeside
+        </h1>
+    <form>
+        <div class="husk">
+            <label for="skrivnavn">Skriv dit navn her</label>
+            <input id="skrivnavn" type="text" required> 
+            <input id="submitnavn" type="submit" value= "submit">
+        </div>
+            <div class="glem">
+                <label for="glemnavn">Jeg vil glemmes</label>
+                <input id=glemnavn type="reset" value="glem">
+            
+        </div>
+    </form>
+</header>
+<main>
+    <div id="personalGreeting">
+    <p class="personalGreeting"> 
+Velkommen til vores hjemmeside
+    </p>
+</div>
+    <p class= "p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Corporis, saepe. Deleniti similique doloremque officia 
+        id minus ratione accusamus nulla blanditiis vero ut optio
+         obcaecati, odio non a fugit dolores sint?</p>
+
+         <p class= "p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Corporis, saepe. Deleniti similique doloremque officia 
+            id minus ratione accusamus nulla blanditiis vero ut optio
+             obcaecati, odio non a fugit dolores sint?</p>
+
+             <p class= "p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Corporis, saepe. Deleniti similique doloremque officia 
+                id minus ratione accusamus nulla blanditiis vero ut optio
+                 obcaecati, odio non a fugit dolores sint?</p>
+
+</main>
+<footer>
+    Copyright Lukas 2020
+</footer>
+</body>
+</html>
